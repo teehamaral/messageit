@@ -49,9 +49,13 @@
             -trans "Referred"
           -elif event.event_type == 'follow'
             -trans "Followed"
-          -else
+          -elif event.event_type == 'stop_contact'
+            -trans "Stopped"
+          -elif event.event_type == 'mt_call' or event.event_type == 'mt_miss' or event.event_type == 'mo_call' or event.event_type == 'mo_miss'
             -trans "Phone call"
-            ({{event.extra_json.duration|format_seconds}})
+            ({{event.extra.duration|format_seconds}})
+          -else
+            -trans "Unknown/Unsupported"
 
       -elif item.type == 'call'
         -with item.obj as call
@@ -112,4 +116,14 @@
        ic-trigger-on:"scrolled-into-view", 
        ic-target:"table.activity tbody.previous", 
        ic-indicator:"#indicator" }
+
+-if not has_older and not recent_only and start_date
+  -if start_date
+    %tr.archive-note
+      %td(colspan=3)><
+        -blocktrans with start=start_date
+          Any messages prior to {{start}} can be found in your
+        %a(href="{% url 'archives.archive_message'%}")><
+          -trans "archive"
+        \.
 

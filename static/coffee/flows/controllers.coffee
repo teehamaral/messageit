@@ -208,8 +208,8 @@ app.controller 'FlowController', [ '$scope', '$rootScope', '$timeout', '$log', '
         showDialog('Invalid Attachment', 'Attachments must be either video, audio, or an image.')
         return
 
-      if media_type == 'audio' and media_encoding != 'mp3'
-        showDialog('Invalid Format', 'Audio attachments must be encoded as mp3 files.')
+      if media_type == 'audio' and media_encoding not in ['mp3', 'm4a', 'x-m4a', 'wav', 'ogg', 'oga']
+        showDialog('Invalid Format', 'Audio attachments must be encoded as mp3, m4a, wav, ogg or oga files.')
         return
 
     if action.type in ['reply', 'send'] and (file.size > 20000000 or (file.name.endsWith('.jpg') and file.size > 500000))
@@ -267,7 +267,7 @@ app.controller 'FlowController', [ '$scope', '$rootScope', '$timeout', '$log', '
       if action.type in ['reply', 'send']
         if not action.media
           action.media = {}
-        action.media[Flow.language.iso_code] = file.type + ':' + data['path']
+        action.media[Flow.language.iso_code] = data['type'] + ':' + data['url']
 
       # make sure our translation state is updated
       action.uploading = false
@@ -1095,11 +1095,6 @@ NodeEditorController = ($rootScope, $scope, $modalInstance, $timeout, $log, Flow
     formData.webhook_action = ruleset.config.webhook_action
     formData.webhook_headers = ruleset.config.webhook_headers or []
     formData.isWebhookAdditionalOptionsVisible = formData.webhook_headers.length > 0
-
-    if 'legacy_format' of ruleset.config
-      formData.newFormat = !ruleset.config.legacy_format
-      formData.supportsLegacy = true
-
   else
     formData.webhook_headers = []
     formData.isWebhookAdditionalOptionsVisible = false
@@ -1234,8 +1229,8 @@ NodeEditorController = ($rootScope, $scope, $modalInstance, $timeout, $log, Flow
     url = "/flow/?_format=select2"
     if Flow.flow.flow_type == 'S'
       return url + "&flow_type=S"
-    if Flow.flow.flow_type == 'F'
-      return url + "&flow_type=F&flow_type=V"
+    if Flow.flow.flow_type == 'M'
+      return url + "&flow_type=M&flow_type=V"
     if Flow.flow.flow_type == 'V'
       return url + "&flow_type=V"
     return url
@@ -1748,9 +1743,6 @@ NodeEditorController = ($rootScope, $scope, $modalInstance, $timeout, $log, Flow
           webhook_action: formData.webhook_action
           webhook_headers: webhook_headers
 
-        if formData.supportsLegacy
-          ruleset.config.legacy_format = !formData.newFormat
-
       # update our operand if they selected a contact field explicitly
       else if rulesetConfig.type == 'contact_field'
         ruleset.operand = '@contact.' + contactField.id
@@ -1830,10 +1822,6 @@ NodeEditorController = ($rootScope, $scope, $modalInstance, $timeout, $log, Flow
   $scope.action = utils.clone(action)
   $scope.showAttachOptions = false
   $scope.showAttachVariable = false
-
-  if 'legacy_format' of $scope.action
-    formData.newFormat = !$scope.action.legacy_format
-    formData.supportsLegacy = true
 
   if $scope.action._attachURL
     $scope.showAttachOptions = true
@@ -2099,9 +2087,6 @@ NodeEditorController = ($rootScope, $scope, $modalInstance, $timeout, $log, Flow
     $scope.action.action = method
     $scope.action.webhook = url
     $scope.action.webhook_headers = webhook_headers
-
-    if $scope.formData.supportsLegacy
-      $scope.action.legacy_format = !$scope.formData.newFormat
 
     Flow.saveAction(actionset, $scope.action)
     $modalInstance.close()
