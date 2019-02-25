@@ -5,6 +5,7 @@ from django.conf.urls import include, url
 from django.conf.urls.static import static
 from django.contrib.auth.models import AnonymousUser, User
 from django.views.i18n import JavaScriptCatalog
+from django.views.generic import RedirectView
 
 from celery.signals import worker_process_init
 
@@ -15,6 +16,7 @@ from temba.utils.analytics import init_analytics
 js_info_dict = {"packages": ()}  # this is empty due to the fact that all translation are in one folder
 
 urlpatterns = [
+    url(r'^$', RedirectView.as_view(url='/users/login')),
     url(r"^", include("temba.public.urls")),
     url(r"^", include("temba.msgs.urls")),
     url(r"^", include("temba.archives.urls")),

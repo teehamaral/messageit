@@ -1,0 +1,155 @@
+{% load compress %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>{% block title %}{% endblock %}MessageIt</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="description" content="#">
+    <meta name="keywords" content="chatbot, message">
+    <meta name="author" content="MessageIt">
+    <!-- Google font-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800" rel="stylesheet">
+    {% compress css %}
+        <!-- Required Fremwork -->
+        <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}messageit/css/bootstrap.min.css">
+        <!-- themify-icons line icon -->
+        <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}messageit/css/themify-icons.css">
+        <!-- Notification.css -->
+        <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}messageit/css/notification.css">
+        <!-- Animate.css -->
+        <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}messageit/css/animate.css">
+        <!-- ico font -->
+        <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}messageit/css/icofont.css">
+        <!-- Style.css -->
+        <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}messageit/css/style.css">
+
+        <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}messageit/css/feather.css">
+        <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}messageit/css/jquery.mCustomScrollbar.css">
+        <link rel="stylesheet" href="{{ STATIC_URL }}messageit/css/_pcmenu.css">
+
+        <style>
+            .btn i {
+                margin-right: initial !important;
+            }
+        </style>
+
+        {% block extra_css %}{% endblock %}
+
+    {% endcompress %}
+
+</head>
+<body class="fix-menu">
+<!-- Pre-loader start -->
+<div class="theme-loader">
+    <div class="ball-scale">
+        <div class='contain'>
+            <div class="ring">
+                <div class="frame"></div>
+            </div>
+            <div class="ring">
+                <div class="frame"></div>
+            </div>
+            <div class="ring">
+                <div class="frame"></div>
+            </div>
+            <div class="ring">
+                <div class="frame"></div>
+            </div>
+            <div class="ring">
+                <div class="frame"></div>
+            </div>
+            <div class="ring">
+                <div class="frame"></div>
+            </div>
+            <div class="ring">
+                <div class="frame"></div>
+            </div>
+            <div class="ring">
+                <div class="frame"></div>
+            </div>
+            <div class="ring">
+                <div class="frame"></div>
+            </div>
+            <div class="ring">
+                <div class="frame"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Pre-loader end -->
+
+{% block content %}{% endblock %}
+
+<!-- Required Jquery -->
+<script type="text/javascript" src="{{ STATIC_URL }}messageit/js/jquery.min.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}messageit/js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}messageit/js/popper.min.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}messageit/js/bootstrap.min.js"></script>
+<!-- jquery slimscroll js -->
+<script type="text/javascript" src="{{ STATIC_URL }}messageit/js/jquery.slimscroll.js"></script>
+<!-- modernizr js -->
+<script type="text/javascript" src="{{ STATIC_URL }}messageit/js/modernizr.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}messageit/js/css-scrollbars.js"></script>
+<!-- notification js -->
+<script type="text/javascript" src="{{ STATIC_URL }}messageit/js/bootstrap-growl.min.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}messageit/js/notification.js"></script>
+<!-- i18next.min.js -->
+<script type="text/javascript" src="{{ STATIC_URL }}messageit/js/i18next.min.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}messageit/js/i18nextXHRBackend.min.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}messageit/js/i18nextBrowserLanguageDetector.min.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}messageit/js/jquery-i18next.min.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}messageit/js/common-pages.js"></script>
+
+<script src="{{ STATIC_URL }}messageit/js/inputmask.js"></script>
+<script src="{{ STATIC_URL }}messageit/js/jquery.inputmask.js"></script>
+<script src="{{ STATIC_URL }}messageit/js/autoNumeric.js"></script>
+<script src="{{ STATIC_URL }}messageit/js/form-mask.js"></script>
+
+<script src="{{ STATIC_URL }}messageit/js/pcoded.min.js"></script>
+<script src="{{ STATIC_URL }}messageit/js/vartical-layout.min.js"></script>
+<script src="{{ STATIC_URL }}messageit/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="{{ STATIC_URL }}messageit/js/sweetalert.min.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}messageit/js/script.js"></script>
+
+<script type="text/javascript">
+  function notify(message, type) {
+    $.growl({
+      message: message
+    }, {
+      type: type,
+      allow_dismiss: false,
+      label: 'Cancel',
+      className: 'btn-xs btn-inverse',
+      placement: {
+        from: 'top',
+        align: 'right'
+      },
+      delay: 2500,
+      animate: {
+        enter: 'animated fadeInDown',
+        exit: 'animated fadeOutUp'
+      },
+      offset: {
+        x: 30,
+        y: 30
+      }
+    });
+  }
+  {% if messages %}
+    $(document).ready(function () {
+      {% for message in messages %}
+        notify('{{ message }}', 'inverse');
+      {% endfor %}
+    });
+  {% endif %}
+</script>
+
+{% block extra_js %}{% endblock %}
+
+</body>
+
+</html>

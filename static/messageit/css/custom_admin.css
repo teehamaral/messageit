@@ -1,0 +1,41 @@
+.search-container input[type=submit] {
+    background-color: #49afcd !important;
+    padding: 4px 12px !important;
+    border: 1px solid #cccccc !important;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.admindatefilter {
+    padding-left: none !important;
+}
+
+.admindatefilter p {
+    display: inline-block !important;
+    margin: 0 35px 0 0 !important;
+}
+
+.admindatefilter .datetimeshortcuts {
+    padding-top: 8px !important;
+}
+
+.admindatefilter .controls {
+    display: none !important;
+}
+
+.calendar caption, .calendarbox h2 {
+    background-color: #e5e5e5 !important;
+}
+
+.calendarbox .calendarnav-previous, .calendarbox .calendarnav-next {
+    background-color: transparent !important;
+}
+
+.calendarbox .calendarnav-previous {
+    background: url(../admin/img/calendar-icons.svg) 0 0 no-repeat;
+}
+
+.calendarbox .calendarnav-next {
+    background: url(../admin/img/calendar-icons.svg) 0 -30px no-repeat;
+}

@@ -1,0 +1,522 @@
+.pcoded .pcoded-item.pcoded-left-item > li:nth-child(1) > a > .pcoded-micon {
+  background-color: #2196F3;
+}
+.pcoded .pcoded-item.pcoded-left-item > li:nth-child(2) > a > .pcoded-micon {
+  background-color: #FF7588;
+}
+.pcoded .pcoded-item.pcoded-left-item > li:nth-child(3) > a > .pcoded-micon {
+  background-color: #16D39A;
+}
+.pcoded .pcoded-item.pcoded-left-item > li:nth-child(4) > a > .pcoded-micon {
+  background-color: #FFB64D;
+}
+.pcoded .pcoded-item.pcoded-left-item > li:nth-child(5) > a > .pcoded-micon {
+  background-color: #ab7967;
+}
+.pcoded .pcoded-item.pcoded-left-item > li:nth-child(6) > a > .pcoded-micon {
+  background-color: #39ADB5;
+}
+.pcoded .pcoded-item.pcoded-left-item > li:nth-child(7) > a > .pcoded-micon {
+  background-color: #7C4DFF;
+}
+.pcoded .pcoded-item.pcoded-left-item > li:nth-child(8) > a > .pcoded-micon {
+  background-color: #FF5370;
+}
+.pcoded .pcoded-item.pcoded-left-item > li:nth-child(9) > a > .pcoded-micon {
+  background-color: #2196F3;
+}
+.pcoded .pcoded-item.pcoded-left-item > li:nth-child(10) > a > .pcoded-micon {
+  background-color: #FF7588;
+}
+.pcoded .pcoded-item.pcoded-left-item > li:nth-child(11) > a > .pcoded-micon {
+  background-color: #16D39A;
+}
+.pcoded .pcoded-item.pcoded-left-item > li:nth-child(12) > a > .pcoded-micon {
+  background-color: #FFB64D;
+}
+.pcoded .pcoded-item.pcoded-left-item > li:nth-child(13) > a > .pcoded-micon {
+  background-color: #ab7967;
+}
+.pcoded .pcoded-item.pcoded-left-item > li:nth-child(14) > a > .pcoded-micon {
+  background-color: #39ADB5;
+}
+.pcoded .pcoded-item.pcoded-left-item > li:nth-child(15) > a > .pcoded-micon {
+  background-color: #7C4DFF;
+}
+.pcoded .pcoded-item.pcoded-left-item > li:nth-child(16) > a > .pcoded-micon {
+  background-color: #FF5370;
+}
+.pcoded .pcoded-item.pcoded-left-item > li:nth-child(17) > a > .pcoded-micon {
+  background-color: #2196F3;
+}
+.pcoded .pcoded-item.pcoded-left-item > li:nth-child(18) > a > .pcoded-micon {
+  background-color: #FF7588;
+}
+.pcoded .pcoded-item.pcoded-left-item > li:nth-child(19) > a > .pcoded-micon {
+  background-color: #16D39A;
+}
+.pcoded .pcoded-item.pcoded-left-item > li:nth-child(20) > a > .pcoded-micon {
+  background-color: #FFB64D;
+}
+.pcoded .pcoded-item.pcoded-left-item > li:nth-child(21) > a > .pcoded-micon {
+  background-color: #ab7967;
+}
+.pcoded .pcoded-item.pcoded-left-item > li:nth-child(22) > a > .pcoded-micon {
+  background-color: #39ADB5;
+}
+.pcoded .pcoded-item.pcoded-left-item > li:nth-child(23) > a > .pcoded-micon {
+  background-color: #7C4DFF;
+}
+.pcoded .pcoded-item.pcoded-left-item > li:nth-child(24) > a > .pcoded-micon {
+  background-color: #FF5370;
+}
+.pcoded[nav-type=st1] .pcoded-item.pcoded-left-item > li > a > .pcoded-micon i, .pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li > a > .pcoded-micon i {
+  display: none;
+}
+.pcoded[nav-type=st2] .pcoded-item.pcoded-left-item > li > a > .pcoded-micon b, .pcoded[nav-type=st5] .pcoded-item.pcoded-left-item > li > a > .pcoded-micon b, .pcoded[nav-type=st6] .pcoded-item.pcoded-left-item > li > a > .pcoded-micon b, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li > a > .pcoded-micon b {
+  display: none;
+}
+.pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(1) > a > .pcoded-micon, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(1) > a > .pcoded-micon {
+  background-color: rgba(106, 184, 247, 0.5);
+}
+.pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(1) > a > .pcoded-micon b, .pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(1) > a > .pcoded-micon i, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(1) > a > .pcoded-micon b, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(1) > a > .pcoded-micon i {
+  color: #0960a5;
+}
+.pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(2) > a > .pcoded-micon, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(2) > a > .pcoded-micon {
+  background-color: rgba(255, 194, 202, 0.5);
+}
+.pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(2) > a > .pcoded-micon b, .pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(2) > a > .pcoded-micon i, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(2) > a > .pcoded-micon b, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(2) > a > .pcoded-micon i {
+  color: #ff0f30;
+}
+.pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(3) > a > .pcoded-micon, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(3) > a > .pcoded-micon {
+  background-color: rgba(73, 236, 187, 0.5);
+}
+.pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(3) > a > .pcoded-micon b, .pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(3) > a > .pcoded-micon i, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(3) > a > .pcoded-micon b, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(3) > a > .pcoded-micon i {
+  color: #0c7757;
+}
+.pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(4) > a > .pcoded-micon, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(4) > a > .pcoded-micon {
+  background-color: rgba(255, 213, 154, 0.5);
+}
+.pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(4) > a > .pcoded-micon b, .pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(4) > a > .pcoded-micon i, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(4) > a > .pcoded-micon b, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(4) > a > .pcoded-micon i {
+  color: #e68800;
+}
+.pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(5) > a > .pcoded-micon, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(5) > a > .pcoded-micon {
+  background-color: rgba(198, 164, 152, 0.5);
+}
+.pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(5) > a > .pcoded-micon b, .pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(5) > a > .pcoded-micon i, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(5) > a > .pcoded-micon b, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(5) > a > .pcoded-micon i {
+  color: #6f4a3d;
+}
+.pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(6) > a > .pcoded-micon, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(6) > a > .pcoded-micon {
+  background-color: rgba(106, 202, 208, 0.5);
+}
+.pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(6) > a > .pcoded-micon b, .pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(6) > a > .pcoded-micon i, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(6) > a > .pcoded-micon b, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(6) > a > .pcoded-micon i {
+  color: #216367;
+}
+.pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(7) > a > .pcoded-micon, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(7) > a > .pcoded-micon {
+  background-color: rgba(180, 154, 255, 0.5);
+}
+.pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(7) > a > .pcoded-micon b, .pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(7) > a > .pcoded-micon i, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(7) > a > .pcoded-micon b, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(7) > a > .pcoded-micon i {
+  color: #3d00e6;
+}
+.pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(8) > a > .pcoded-micon, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(8) > a > .pcoded-micon {
+  background-color: rgba(255, 160, 176, 0.5);
+}
+.pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(8) > a > .pcoded-micon b, .pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(8) > a > .pcoded-micon i, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(8) > a > .pcoded-micon b, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(8) > a > .pcoded-micon i {
+  color: #ec0028;
+}
+.pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(9) > a > .pcoded-micon, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(9) > a > .pcoded-micon {
+  background-color: rgba(106, 184, 247, 0.5);
+}
+.pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(9) > a > .pcoded-micon b, .pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(9) > a > .pcoded-micon i, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(9) > a > .pcoded-micon b, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(9) > a > .pcoded-micon i {
+  color: #0960a5;
+}
+.pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(10) > a > .pcoded-micon, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(10) > a > .pcoded-micon {
+  background-color: rgba(255, 194, 202, 0.5);
+}
+.pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(10) > a > .pcoded-micon b, .pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(10) > a > .pcoded-micon i, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(10) > a > .pcoded-micon b, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(10) > a > .pcoded-micon i {
+  color: #ff0f30;
+}
+.pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(11) > a > .pcoded-micon, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(11) > a > .pcoded-micon {
+  background-color: rgba(73, 236, 187, 0.5);
+}
+.pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(11) > a > .pcoded-micon b, .pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(11) > a > .pcoded-micon i, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(11) > a > .pcoded-micon b, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(11) > a > .pcoded-micon i {
+  color: #0c7757;
+}
+.pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(12) > a > .pcoded-micon, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(12) > a > .pcoded-micon {
+  background-color: rgba(255, 213, 154, 0.5);
+}
+.pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(12) > a > .pcoded-micon b, .pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(12) > a > .pcoded-micon i, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(12) > a > .pcoded-micon b, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(12) > a > .pcoded-micon i {
+  color: #e68800;
+}
+.pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(13) > a > .pcoded-micon, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(13) > a > .pcoded-micon {
+  background-color: rgba(198, 164, 152, 0.5);
+}
+.pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(13) > a > .pcoded-micon b, .pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(13) > a > .pcoded-micon i, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(13) > a > .pcoded-micon b, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(13) > a > .pcoded-micon i {
+  color: #6f4a3d;
+}
+.pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(14) > a > .pcoded-micon, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(14) > a > .pcoded-micon {
+  background-color: rgba(106, 202, 208, 0.5);
+}
+.pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(14) > a > .pcoded-micon b, .pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(14) > a > .pcoded-micon i, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(14) > a > .pcoded-micon b, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(14) > a > .pcoded-micon i {
+  color: #216367;
+}
+.pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(15) > a > .pcoded-micon, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(15) > a > .pcoded-micon {
+  background-color: rgba(180, 154, 255, 0.5);
+}
+.pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(15) > a > .pcoded-micon b, .pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(15) > a > .pcoded-micon i, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(15) > a > .pcoded-micon b, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(15) > a > .pcoded-micon i {
+  color: #3d00e6;
+}
+.pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(16) > a > .pcoded-micon, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(16) > a > .pcoded-micon {
+  background-color: rgba(255, 160, 176, 0.5);
+}
+.pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(16) > a > .pcoded-micon b, .pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(16) > a > .pcoded-micon i, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(16) > a > .pcoded-micon b, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(16) > a > .pcoded-micon i {
+  color: #ec0028;
+}
+.pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(17) > a > .pcoded-micon, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(17) > a > .pcoded-micon {
+  background-color: rgba(106, 184, 247, 0.5);
+}
+.pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(17) > a > .pcoded-micon b, .pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(17) > a > .pcoded-micon i, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(17) > a > .pcoded-micon b, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(17) > a > .pcoded-micon i {
+  color: #0960a5;
+}
+.pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(18) > a > .pcoded-micon, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(18) > a > .pcoded-micon {
+  background-color: rgba(255, 194, 202, 0.5);
+}
+.pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(18) > a > .pcoded-micon b, .pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(18) > a > .pcoded-micon i, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(18) > a > .pcoded-micon b, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(18) > a > .pcoded-micon i {
+  color: #ff0f30;
+}
+.pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(19) > a > .pcoded-micon, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(19) > a > .pcoded-micon {
+  background-color: rgba(73, 236, 187, 0.5);
+}
+.pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(19) > a > .pcoded-micon b, .pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(19) > a > .pcoded-micon i, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(19) > a > .pcoded-micon b, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(19) > a > .pcoded-micon i {
+  color: #0c7757;
+}
+.pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(20) > a > .pcoded-micon, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(20) > a > .pcoded-micon {
+  background-color: rgba(255, 213, 154, 0.5);
+}
+.pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(20) > a > .pcoded-micon b, .pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(20) > a > .pcoded-micon i, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(20) > a > .pcoded-micon b, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(20) > a > .pcoded-micon i {
+  color: #e68800;
+}
+.pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(21) > a > .pcoded-micon, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(21) > a > .pcoded-micon {
+  background-color: rgba(198, 164, 152, 0.5);
+}
+.pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(21) > a > .pcoded-micon b, .pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(21) > a > .pcoded-micon i, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(21) > a > .pcoded-micon b, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(21) > a > .pcoded-micon i {
+  color: #6f4a3d;
+}
+.pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(22) > a > .pcoded-micon, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(22) > a > .pcoded-micon {
+  background-color: rgba(106, 202, 208, 0.5);
+}
+.pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(22) > a > .pcoded-micon b, .pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(22) > a > .pcoded-micon i, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(22) > a > .pcoded-micon b, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(22) > a > .pcoded-micon i {
+  color: #216367;
+}
+.pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(23) > a > .pcoded-micon, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(23) > a > .pcoded-micon {
+  background-color: rgba(180, 154, 255, 0.5);
+}
+.pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(23) > a > .pcoded-micon b, .pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(23) > a > .pcoded-micon i, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(23) > a > .pcoded-micon b, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(23) > a > .pcoded-micon i {
+  color: #3d00e6;
+}
+.pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(24) > a > .pcoded-micon, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(24) > a > .pcoded-micon {
+  background-color: rgba(255, 160, 176, 0.5);
+}
+.pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(24) > a > .pcoded-micon b, .pcoded[nav-type=st3] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(24) > a > .pcoded-micon i, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(24) > a > .pcoded-micon b, .pcoded[nav-type=st4] .pcoded-navbar[navbar-theme*=themelight] .pcoded-item.pcoded-left-item > li:nth-child(24) > a > .pcoded-micon i {
+  color: #ec0028;
+}
+.pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(1) > a > .pcoded-micon, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(1) > a > .pcoded-micon {
+  background-color: #6ab8f7;
+}
+.pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(1) > a > .pcoded-micon b, .pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(1) > a > .pcoded-micon i, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(1) > a > .pcoded-micon b, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(1) > a > .pcoded-micon i {
+  color: #0960a5;
+}
+.pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(2) > a > .pcoded-micon, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(2) > a > .pcoded-micon {
+  background-color: #ffc2ca;
+}
+.pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(2) > a > .pcoded-micon b, .pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(2) > a > .pcoded-micon i, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(2) > a > .pcoded-micon b, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(2) > a > .pcoded-micon i {
+  color: #ff0f30;
+}
+.pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(3) > a > .pcoded-micon, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(3) > a > .pcoded-micon {
+  background-color: #49ecbb;
+}
+.pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(3) > a > .pcoded-micon b, .pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(3) > a > .pcoded-micon i, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(3) > a > .pcoded-micon b, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(3) > a > .pcoded-micon i {
+  color: #0c7757;
+}
+.pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(4) > a > .pcoded-micon, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(4) > a > .pcoded-micon {
+  background-color: #ffd59a;
+}
+.pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(4) > a > .pcoded-micon b, .pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(4) > a > .pcoded-micon i, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(4) > a > .pcoded-micon b, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(4) > a > .pcoded-micon i {
+  color: #e68800;
+}
+.pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(5) > a > .pcoded-micon, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(5) > a > .pcoded-micon {
+  background-color: #c6a498;
+}
+.pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(5) > a > .pcoded-micon b, .pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(5) > a > .pcoded-micon i, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(5) > a > .pcoded-micon b, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(5) > a > .pcoded-micon i {
+  color: #6f4a3d;
+}
+.pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(6) > a > .pcoded-micon, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(6) > a > .pcoded-micon {
+  background-color: #6acad0;
+}
+.pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(6) > a > .pcoded-micon b, .pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(6) > a > .pcoded-micon i, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(6) > a > .pcoded-micon b, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(6) > a > .pcoded-micon i {
+  color: #216367;
+}
+.pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(7) > a > .pcoded-micon, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(7) > a > .pcoded-micon {
+  background-color: #b49aff;
+}
+.pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(7) > a > .pcoded-micon b, .pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(7) > a > .pcoded-micon i, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(7) > a > .pcoded-micon b, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(7) > a > .pcoded-micon i {
+  color: #3d00e6;
+}
+.pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(8) > a > .pcoded-micon, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(8) > a > .pcoded-micon {
+  background-color: #ffa0b0;
+}
+.pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(8) > a > .pcoded-micon b, .pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(8) > a > .pcoded-micon i, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(8) > a > .pcoded-micon b, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(8) > a > .pcoded-micon i {
+  color: #ec0028;
+}
+.pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(9) > a > .pcoded-micon, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(9) > a > .pcoded-micon {
+  background-color: #6ab8f7;
+}
+.pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(9) > a > .pcoded-micon b, .pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(9) > a > .pcoded-micon i, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(9) > a > .pcoded-micon b, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(9) > a > .pcoded-micon i {
+  color: #0960a5;
+}
+.pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(10) > a > .pcoded-micon, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(10) > a > .pcoded-micon {
+  background-color: #ffc2ca;
+}
+.pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(10) > a > .pcoded-micon b, .pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(10) > a > .pcoded-micon i, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(10) > a > .pcoded-micon b, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(10) > a > .pcoded-micon i {
+  color: #ff0f30;
+}
+.pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(11) > a > .pcoded-micon, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(11) > a > .pcoded-micon {
+  background-color: #49ecbb;
+}
+.pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(11) > a > .pcoded-micon b, .pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(11) > a > .pcoded-micon i, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(11) > a > .pcoded-micon b, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(11) > a > .pcoded-micon i {
+  color: #0c7757;
+}
+.pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(12) > a > .pcoded-micon, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(12) > a > .pcoded-micon {
+  background-color: #ffd59a;
+}
+.pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(12) > a > .pcoded-micon b, .pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(12) > a > .pcoded-micon i, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(12) > a > .pcoded-micon b, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(12) > a > .pcoded-micon i {
+  color: #e68800;
+}
+.pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(13) > a > .pcoded-micon, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(13) > a > .pcoded-micon {
+  background-color: #c6a498;
+}
+.pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(13) > a > .pcoded-micon b, .pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(13) > a > .pcoded-micon i, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(13) > a > .pcoded-micon b, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(13) > a > .pcoded-micon i {
+  color: #6f4a3d;
+}
+.pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(14) > a > .pcoded-micon, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(14) > a > .pcoded-micon {
+  background-color: #6acad0;
+}
+.pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(14) > a > .pcoded-micon b, .pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(14) > a > .pcoded-micon i, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(14) > a > .pcoded-micon b, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(14) > a > .pcoded-micon i {
+  color: #216367;
+}
+.pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(15) > a > .pcoded-micon, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(15) > a > .pcoded-micon {
+  background-color: #b49aff;
+}
+.pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(15) > a > .pcoded-micon b, .pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(15) > a > .pcoded-micon i, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(15) > a > .pcoded-micon b, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(15) > a > .pcoded-micon i {
+  color: #3d00e6;
+}
+.pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(16) > a > .pcoded-micon, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(16) > a > .pcoded-micon {
+  background-color: #ffa0b0;
+}
+.pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(16) > a > .pcoded-micon b, .pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(16) > a > .pcoded-micon i, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(16) > a > .pcoded-micon b, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(16) > a > .pcoded-micon i {
+  color: #ec0028;
+}
+.pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(17) > a > .pcoded-micon, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(17) > a > .pcoded-micon {
+  background-color: #6ab8f7;
+}
+.pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(17) > a > .pcoded-micon b, .pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(17) > a > .pcoded-micon i, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(17) > a > .pcoded-micon b, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(17) > a > .pcoded-micon i {
+  color: #0960a5;
+}
+.pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(18) > a > .pcoded-micon, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(18) > a > .pcoded-micon {
+  background-color: #ffc2ca;
+}
+.pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(18) > a > .pcoded-micon b, .pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(18) > a > .pcoded-micon i, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(18) > a > .pcoded-micon b, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(18) > a > .pcoded-micon i {
+  color: #ff0f30;
+}
+.pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(19) > a > .pcoded-micon, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(19) > a > .pcoded-micon {
+  background-color: #49ecbb;
+}
+.pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(19) > a > .pcoded-micon b, .pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(19) > a > .pcoded-micon i, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(19) > a > .pcoded-micon b, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(19) > a > .pcoded-micon i {
+  color: #0c7757;
+}
+.pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(20) > a > .pcoded-micon, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(20) > a > .pcoded-micon {
+  background-color: #ffd59a;
+}
+.pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(20) > a > .pcoded-micon b, .pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(20) > a > .pcoded-micon i, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(20) > a > .pcoded-micon b, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(20) > a > .pcoded-micon i {
+  color: #e68800;
+}
+.pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(21) > a > .pcoded-micon, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(21) > a > .pcoded-micon {
+  background-color: #c6a498;
+}
+.pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(21) > a > .pcoded-micon b, .pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(21) > a > .pcoded-micon i, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(21) > a > .pcoded-micon b, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(21) > a > .pcoded-micon i {
+  color: #6f4a3d;
+}
+.pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(22) > a > .pcoded-micon, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(22) > a > .pcoded-micon {
+  background-color: #6acad0;
+}
+.pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(22) > a > .pcoded-micon b, .pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(22) > a > .pcoded-micon i, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(22) > a > .pcoded-micon b, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(22) > a > .pcoded-micon i {
+  color: #216367;
+}
+.pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(23) > a > .pcoded-micon, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(23) > a > .pcoded-micon {
+  background-color: #b49aff;
+}
+.pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(23) > a > .pcoded-micon b, .pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(23) > a > .pcoded-micon i, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(23) > a > .pcoded-micon b, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(23) > a > .pcoded-micon i {
+  color: #3d00e6;
+}
+.pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(24) > a > .pcoded-micon, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(24) > a > .pcoded-micon {
+  background-color: #ffa0b0;
+}
+.pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(24) > a > .pcoded-micon b, .pcoded[nav-type=st3] .pcoded-item.pcoded-left-item > li:nth-child(24) > a > .pcoded-micon i, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(24) > a > .pcoded-micon b, .pcoded[nav-type=st4] .pcoded-item.pcoded-left-item > li:nth-child(24) > a > .pcoded-micon i {
+  color: #ec0028;
+}
+.pcoded[nav-type=st5] .pcoded-item.pcoded-left-item > li:nth-child(1) > a > .pcoded-micon {
+  background-color: transparent;
+}
+.pcoded[nav-type=st5] .pcoded-item.pcoded-left-item > li:nth-child(1) > a > .pcoded-micon i {
+  color: #2196F3;
+}
+.pcoded[nav-type=st5] .pcoded-item.pcoded-left-item > li:nth-child(2) > a > .pcoded-micon {
+  background-color: transparent;
+}
+.pcoded[nav-type=st5] .pcoded-item.pcoded-left-item > li:nth-child(2) > a > .pcoded-micon i {
+  color: #FF7588;
+}
+.pcoded[nav-type=st5] .pcoded-item.pcoded-left-item > li:nth-child(3) > a > .pcoded-micon {
+  background-color: transparent;
+}
+.pcoded[nav-type=st5] .pcoded-item.pcoded-left-item > li:nth-child(3) > a > .pcoded-micon i {
+  color: #16D39A;
+}
+.pcoded[nav-type=st5] .pcoded-item.pcoded-left-item > li:nth-child(4) > a > .pcoded-micon {
+  background-color: transparent;
+}
+.pcoded[nav-type=st5] .pcoded-item.pcoded-left-item > li:nth-child(4) > a > .pcoded-micon i {
+  color: #FFB64D;
+}
+.pcoded[nav-type=st5] .pcoded-item.pcoded-left-item > li:nth-child(5) > a > .pcoded-micon {
+  background-color: transparent;
+}
+.pcoded[nav-type=st5] .pcoded-item.pcoded-left-item > li:nth-child(5) > a > .pcoded-micon i {
+  color: #ab7967;
+}
+.pcoded[nav-type=st5] .pcoded-item.pcoded-left-item > li:nth-child(6) > a > .pcoded-micon {
+  background-color: transparent;
+}
+.pcoded[nav-type=st5] .pcoded-item.pcoded-left-item > li:nth-child(6) > a > .pcoded-micon i {
+  color: #39ADB5;
+}
+.pcoded[nav-type=st5] .pcoded-item.pcoded-left-item > li:nth-child(7) > a > .pcoded-micon {
+  background-color: transparent;
+}
+.pcoded[nav-type=st5] .pcoded-item.pcoded-left-item > li:nth-child(7) > a > .pcoded-micon i {
+  color: #7C4DFF;
+}
+.pcoded[nav-type=st5] .pcoded-item.pcoded-left-item > li:nth-child(8) > a > .pcoded-micon {
+  background-color: transparent;
+}
+.pcoded[nav-type=st5] .pcoded-item.pcoded-left-item > li:nth-child(8) > a > .pcoded-micon i {
+  color: #FF5370;
+}
+.pcoded[nav-type=st5] .pcoded-item.pcoded-left-item > li:nth-child(9) > a > .pcoded-micon {
+  background-color: transparent;
+}
+.pcoded[nav-type=st5] .pcoded-item.pcoded-left-item > li:nth-child(9) > a > .pcoded-micon i {
+  color: #2196F3;
+}
+.pcoded[nav-type=st5] .pcoded-item.pcoded-left-item > li:nth-child(10) > a > .pcoded-micon {
+  background-color: transparent;
+}
+.pcoded[nav-type=st5] .pcoded-item.pcoded-left-item > li:nth-child(10) > a > .pcoded-micon i {
+  color: #FF7588;
+}
+.pcoded[nav-type=st5] .pcoded-item.pcoded-left-item > li:nth-child(11) > a > .pcoded-micon {
+  background-color: transparent;
+}
+.pcoded[nav-type=st5] .pcoded-item.pcoded-left-item > li:nth-child(11) > a > .pcoded-micon i {
+  color: #16D39A;
+}
+.pcoded[nav-type=st5] .pcoded-item.pcoded-left-item > li:nth-child(12) > a > .pcoded-micon {
+  background-color: transparent;
+}
+.pcoded[nav-type=st5] .pcoded-item.pcoded-left-item > li:nth-child(12) > a > .pcoded-micon i {
+  color: #FFB64D;
+}
+.pcoded[nav-type=st5] .pcoded-item.pcoded-left-item > li:nth-child(13) > a > .pcoded-micon {
+  background-color: transparent;
+}
+.pcoded[nav-type=st5] .pcoded-item.pcoded-left-item > li:nth-child(13) > a > .pcoded-micon i {
+  color: #ab7967;
+}
+.pcoded[nav-type=st5] .pcoded-item.pcoded-left-item > li:nth-child(14) > a > .pcoded-micon {
+  background-color: transparent;
+}
+.pcoded[nav-type=st5] .pcoded-item.pcoded-left-item > li:nth-child(14) > a > .pcoded-micon i {
+  color: #39ADB5;
+}
+.pcoded[nav-type=st5] .pcoded-item.pcoded-left-item > li:nth-child(15) > a > .pcoded-micon {
+  background-color: transparent;
+}
+.pcoded[nav-type=st5] .pcoded-item.pcoded-left-item > li:nth-child(15) > a > .pcoded-micon i {
+  color: #7C4DFF;
+}
+.pcoded[nav-type=st5] .pcoded-item.pcoded-left-item > li:nth-child(16) > a > .pcoded-micon {
+  background-color: transparent;
+}
+.pcoded[nav-type=st5] .pcoded-item.pcoded-left-item > li:nth-child(16) > a > .pcoded-micon i {
+  color: #FF5370;
+}
+.pcoded[nav-type=st5] .pcoded-item.pcoded-left-item > li:nth-child(17) > a > .pcoded-micon {
+  background-color: transparent;
+}
+.pcoded[nav-type=st5] .pcoded-item.pcoded-left-item > li:nth-child(17) > a > .pcoded-micon i {
+  color: #2196F3;
+}
+.pcoded[nav-type=st5] .pcoded-item.pcoded-left-item > li:nth-child(18) > a > .pcoded-micon {
+  background-color: transparent;
+}
+.pcoded[nav-type=st5] .pcoded-item.pcoded-left-item > li:nth-child(18) > a > .pcoded-micon i {
+  color: #FF7588;
+}
+.pcoded[nav-type=st5] .pcoded-item.pcoded-left-item > li:nth-child(19) > a > .pcoded-micon {
+  background-color: transparent;
+}
+.pcoded[nav-type=st5] .pcoded-item.pcoded-left-item > li:nth-child(19) > a > .pcoded-micon i {
+  color: #16D39A;
+}
+.pcoded[nav-type=st5] .pcoded-item.pcoded-left-item > li:nth-child(20) > a > .pcoded-micon {
+  background-color: transparent;
+}
+.pcoded[nav-type=st5] .pcoded-item.pcoded-left-item > li:nth-child(20) > a > .pcoded-micon i {
+  color: #FFB64D;
+}
+.pcoded[nav-type=st5] .pcoded-item.pcoded-left-item > li:nth-child(21) > a > .pcoded-micon {
+  background-color: transparent;
+}
+.pcoded[nav-type=st5] .pcoded-item.pcoded-left-item > li:nth-child(21) > a > .pcoded-micon i {
+  color: #ab7967;
+}
+.pcoded[nav-type=st5] .pcoded-item.pcoded-left-item > li:nth-child(22) > a > .pcoded-micon {
+  background-color: transparent;
+}
+.pcoded[nav-type=st5] .pcoded-item.pcoded-left-item > li:nth-child(22) > a > .pcoded-micon i {
+  color: #39ADB5;
+}
+.pcoded[nav-type=st5] .pcoded-item.pcoded-left-item > li:nth-child(23) > a > .pcoded-micon {
+  background-color: transparent;
+}
+.pcoded[nav-type=st5] .pcoded-item.pcoded-left-item > li:nth-child(23) > a > .pcoded-micon i {
+  color: #7C4DFF;
+}
+.pcoded[nav-type=st5] .pcoded-item.pcoded-left-item > li:nth-child(24) > a > .pcoded-micon {
+  background-color: transparent;
+}
+.pcoded[nav-type=st5] .pcoded-item.pcoded-left-item > li:nth-child(24) > a > .pcoded-micon i {
+  color: #FF5370;
+}
+.pcoded[nav-type=st6] .pcoded-item.pcoded-left-item > li > a > .pcoded-micon {
+  background-color: transparent;
+}
+.pcoded[nav-type=st6] .pcoded-item.pcoded-left-item > li > a > .pcoded-micon i {
+  color: #c3c3c3;
+}
+.pcoded[nav-type=st6] .pcoded-navbar[navbar-theme=themelight1] .pcoded-item.pcoded-left-item > li > a > .pcoded-micon {
+  background-color: transparent;
+}
+.pcoded[nav-type=st6] .pcoded-navbar[navbar-theme=themelight1] .pcoded-item.pcoded-left-item > li > a > .pcoded-micon i {
+  color: #000;
+}
