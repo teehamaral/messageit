@@ -142,7 +142,7 @@ MEDIA_URL = "/media/"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [os.path.join(PROJECT_DIR, "../templates")],
+        "DIRS": [os.path.join(PROJECT_DIR, "../templates/rapidpro")],
         "OPTIONS": {
             "context_processors": [
                 "django.contrib.auth.context_processors.auth",
