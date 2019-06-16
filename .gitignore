@@ -27,6 +27,7 @@ static/coffee/simulator.js
 static/coffee/temba.js
 static/coffee/formax.js
 static/javascripts/
+static/CACHE/
 temba/settings.py
 temba/smartmin
 temba.db
