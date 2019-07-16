@@ -1592,7 +1592,7 @@ class OrgCRUDL(SmartCRUDL):
             organization = forms.ModelChoiceField(queryset=Org.objects.all(), empty_label=None)
 
         form_class = ChooseForm
-        success_url = "@msgs.msg_inbox"
+        success_url = "@orgs.org_home"
         fields = ("organization",)
         title = _("Select your Organization")
 

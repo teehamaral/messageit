@@ -1,6 +1,14 @@
 -load smartmin i18n temba
 
+-url 'users.user_forget' as user_forget
+
 %ul#top-menu
+
+  -if org_perms.orgs.org_home and not request.user.is_superuser
+    %li.nav-home
+      %a.icon-nav-home{href:"{% url 'orgs.org_home' %}", class:"{% active request 'home' %}"}
+        .title
+          -trans "home"
 
   -if org_perms.msgs.msg_inbox and not request.user.is_superuser
     %li.nav-messages
@@ -78,11 +86,11 @@
 
   -else
     -block temba-login
-
-      %li.nav-login
-        %a.icon-nav-login{href:"{% ssl_brand_url 'users.user_check_login' %}"}
-          .title
-            -trans "sign in"
+      -if request.get_full_path == user_forget
+        %li.nav-login
+          %a.icon-nav-login{href:"{% ssl_brand_url 'users.user_check_login' %}"}
+            .title
+              -trans "sign in"
 
 -if user_org and user_org.has_low_credits and not user.is_superuser
   -if user_org.get_credits_remaining < 0
