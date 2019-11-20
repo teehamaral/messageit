@@ -11,21 +11,19 @@ from ...views import ClaimViewMixin
 
 class ClaimView(ClaimViewMixin, SmartFormView):
     class Form(ClaimViewMixin.Form):
-        channel_name = forms.CharField(
-            label=_("Channel Name"), help_text=_("The name of the channel"), required=True
-        )
+        channel_name = forms.CharField(label=_("Channel Name"), help_text=_("The name of the channel"), required=True)
         whatsapp_phone_number = forms.CharField(
-            label=_("WhatsApp Phone Number"), help_text=_("Your WhatsApp Phone Number. E.g. 558299009900"),
-            required=True
+            label=_("WhatsApp Phone Number"),
+            help_text=_("Your WhatsApp Phone Number. E.g. 558299009900"),
+            required=True,
         )
         send_url = forms.CharField(
-            label=_("URL"), help_text=_("The Chat API URL, you can find it on the Chat API dashboard"),
-            required=True
+            label=_("URL"), help_text=_("The Chat API URL, you can find it on the Chat API dashboard"), required=True
         )
         auth_token = forms.CharField(
             label=_("Authentication Token"),
             help_text=_("The Authentication token for this instance, you can find it on the Chat API dashboard"),
-            required=True
+            required=True,
         )
 
         def clean(self):
@@ -39,8 +37,8 @@ class ClaimView(ClaimViewMixin, SmartFormView):
                     raise ValidationError(_("A Chat API channel with this token already exists on your account."))
 
             # Removing the / from the end if it exists
-            if send_url.endswith('/'):
-                send_url = send_url[:len(send_url) - 1]
+            if send_url.endswith("/"):
+                send_url = send_url[: len(send_url) - 1]
 
             full_api_url = f"{send_url}/status?token={auth_token}"
 
@@ -59,10 +57,7 @@ class ClaimView(ClaimViewMixin, SmartFormView):
         channel_name = self.form.cleaned_data["channel_name"]
         whatsapp_phone_number = self.form.cleaned_data["whatsapp_phone_number"]
 
-        channel_config = {
-            Channel.CONFIG_AUTH_TOKEN: auth_token,
-            Channel.CONFIG_SEND_URL: send_url
-        }
+        channel_config = {Channel.CONFIG_AUTH_TOKEN: auth_token, Channel.CONFIG_SEND_URL: send_url}
 
         self.object = Channel.create(
             org,
