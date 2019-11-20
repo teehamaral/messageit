@@ -4,7 +4,6 @@ from django.urls import reverse
 from django.utils.translation import ugettext_lazy as _
 
 from temba.contacts.models import WHATSAPP_SCHEME
-from temba.utils.json import dumps
 
 from ...models import ChannelType, Channel
 from .views import ClaimView
